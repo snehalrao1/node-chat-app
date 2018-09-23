@@ -43,6 +43,6 @@ io.on('connection',(socket)=>{
 
 
 //listening to the webserver at localhost:3000 port
-server.listen(port,()=>{
+app.listen(port,()=>{
   console.log(`server is up and running on port ${port}`);
 });
